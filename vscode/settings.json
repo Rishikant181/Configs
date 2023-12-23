@@ -5,6 +5,9 @@
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 
     /* JAVA */
     "java.inlayHints.parameterNames.enabled": "none",    
@@ -25,5 +28,5 @@
         "activityBar.background": "#f3f3f3",
         "activityBar.foreground": "#404040"
     },
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "vscode-icons"
 }
