@@ -21,12 +21,12 @@
 
     /* WINDOW */
     "window.restoreWindows": "none",
-    
+
     /* WORKBENCH */
-    "workbench.colorTheme": "Visual Studio Light",
     "workbench.colorCustomizations": {
         "activityBar.background": "#f3f3f3",
         "activityBar.foreground": "#404040"
     },
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Default Light+"
 }

@@ -1,0 +1,32 @@
+[Brightness Contrast]
+
+Exposure: 0%
+Contrast: 20%
+Highlights: 0%
+Shadows: 20%
+Gamma: 0%
+
+
+[Details]
+
+Sharpen: 0%
+Clarity: 100%
+HDR Toning: 0%
+Bloom: 0%
+
+
+[Color]
+
+Tint Color: 0%
+Tint Intensity: 10%
+Temperature: 4.5
+Vibrance: -11.6
+
+
+[Old Film]
+Gamma: 50%
+Exposure: 50%
+Contrast: 50%
+Vignette Amount: 20%
+Filter Strength: 0%
+Film Dirt Strength: 0%
