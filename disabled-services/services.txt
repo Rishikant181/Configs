@@ -1,3 +1,5 @@
+Print Spooler
 Program Compatibility Assistant Service
 SysMain
+Touch Keyboard and Handwriting Panel Service
 Windows Search
