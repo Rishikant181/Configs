@@ -1,32 +1,41 @@
 {
-    /* EDITOR */
-    "editor.minimap.enabled": false,
-    "editor.formatOnSave": true,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+  // VSCODE
 
-    /* JAVA */
-    "java.inlayHints.parameterNames.enabled": "none",    
+  /* EDITOR */
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-    /* TELEMETRY */
-    "telemetry.telemetryLevel": "off",
+  /* EXTENSIONS */
+  "extensions.ignoreRecommendations": true,
 
-    /* UPDATE */
-    "update.mode": "none",
-    "update.enableWindowsBackgroundUpdates": false,
+  /* SECURITY */
+  "security.allowedUNCHosts": ["wsl$"],
 
-    /* WINDOW */
-    "window.restoreWindows": "none",
+  /* TELEMETRY */
+  "telemetry.telemetryLevel": "off",
 
-    /* WORKBENCH */
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#f3f3f3",
-        "activityBar.foreground": "#404040"
-    },
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Default Light+"
+  /* UPDATE */
+  "update.mode": "none",
+  "update.enableWindowsBackgroundUpdates": false,
+
+  /* WINDOW */
+  "window.restoreWindows": "none",
+
+  /* WORKBENCH */
+  "workbench.colorTheme": "GitHub Light",
+  "workbench.iconTheme": "vscode-icons",
+
+  // LANGUAGES
+
+  /* ARDUINO */
+  "arduino.useArduinoCli": true,
+
+  /* JAVA */
+  "java.inlayHints.parameterNames.enabled": "none",
 }
