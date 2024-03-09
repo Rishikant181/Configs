@@ -30,12 +30,16 @@
   /* WORKBENCH */
   "workbench.colorTheme": "GitHub Light",
   "workbench.iconTheme": "vscode-icons",
+  
 
   // LANGUAGES
 
-  /* ARDUINO */
-  "arduino.useArduinoCli": true,
-
   /* JAVA */
   "java.inlayHints.parameterNames.enabled": "none",
+
+  /* JAVASCRIPT */
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  /* TYPESCRIPT */
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
