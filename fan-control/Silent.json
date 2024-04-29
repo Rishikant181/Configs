@@ -1,27 +1,76 @@
 {
-  "__VERSION__": "156",
+  "__VERSION__": "187",
   "Main": {
     "Controls": [
       {
+        "Calibration": [
+          [
+            0,
+            999
+          ],
+          [
+            10,
+            1158
+          ],
+          [
+            20,
+            1313
+          ],
+          [
+            30,
+            1470
+          ],
+          [
+            40,
+            1635
+          ],
+          [
+            50,
+            1798
+          ],
+          [
+            60,
+            1964
+          ],
+          [
+            70,
+            2119
+          ],
+          [
+            80,
+            2286
+          ],
+          [
+            90,
+            2430
+          ],
+          [
+            100,
+            2586
+          ]
+        ],
         "Enable": true,
         "ForceApply": false,
         "Identifier": "/lpc/it8655e/control/0",
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MatchingFanSensor": {
+        "MinimumPercent": 0,
+        "Name": "Fan #1",
+        "NickName": "CPU",
+        "PairedFanSensor": {
           "Identifier": "/lpc/it8655e/fan/0",
           "IsHidden": false,
           "Name": "Fan #1",
           "NickName": "CPU"
         },
-        "MinimumPercent": 0,
-        "Name": "Fan #1",
-        "NickName": "CPU",
         "SelectedCommandStepDown": 8.0,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
           "IsHidden": false,
+          "MaximumCommand": 100,
           "MaximumTemperature": 120,
           "MinimumTemperature": 20,
           "Name": "CPU",
@@ -50,16 +99,17 @@
         "SelectedStop": 0
       },
       {
+        "Calibration": [],
         "Enable": true,
         "ForceApply": false,
         "Identifier": "/lpc/it8655e/control/1",
         "IsHidden": true,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MatchingFanSensor": null,
         "MinimumPercent": 0,
         "Name": "Fan #2",
         "NickName": "TOP",
+        "PairedFanSensor": null,
         "SelectedCommandStepDown": 8.0,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": null,
@@ -68,20 +118,66 @@
         "SelectedStop": 0
       },
       {
+        "Calibration": [
+          [
+            20,
+            638
+          ],
+          [
+            30,
+            784
+          ],
+          [
+            40,
+            926
+          ],
+          [
+            50,
+            1074
+          ],
+          [
+            60,
+            1211
+          ],
+          [
+            70,
+            1364
+          ],
+          [
+            80,
+            1494
+          ],
+          [
+            90,
+            1641
+          ],
+          [
+            100,
+            1810
+          ]
+        ],
         "Enable": true,
         "ForceApply": false,
         "Identifier": "/lpc/it8655e/control/2",
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MatchingFanSensor": null,
         "MinimumPercent": 0,
         "Name": "Fan #3",
         "NickName": "Chasis",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/it8655e/fan/2",
+          "IsHidden": false,
+          "Name": "Fan #3",
+          "NickName": "Chassis"
+        },
         "SelectedCommandStepDown": 8.0,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
           "IsHidden": false,
+          "MaximumCommand": 100,
           "MaximumTemperature": 120,
           "MinimumTemperature": 20,
           "Name": "Chasis",
@@ -105,16 +201,16 @@
             "SelectedMixFunction": 1,
             "SelectedSensors": [
               {
-                "Identifier": "NVApiWrapper/0-TU116-A/sensor/0",
-                "IsHidden": false,
-                "Name": "GPU",
-                "NickName": "GPU"
-              },
-              {
                 "Identifier": "/amdcpu/0/temperature/2",
                 "IsHidden": false,
                 "Name": "Core (Tctl/Tdie)",
                 "NickName": "Core (Tctl/Tdie)"
+              },
+              {
+                "Identifier": "NVApiWrapper/0-TU116-A/sensor/0",
+                "IsHidden": false,
+                "Name": "GPU",
+                "NickName": "GPU"
               }
             ]
           }
@@ -124,20 +220,62 @@
         "SelectedStop": 0
       },
       {
+        "Calibration": [
+          [
+            30,
+            0
+          ],
+          [
+            40,
+            1125
+          ],
+          [
+            50,
+            1405
+          ],
+          [
+            60,
+            1686
+          ],
+          [
+            70,
+            1961
+          ],
+          [
+            80,
+            2248
+          ],
+          [
+            90,
+            2521
+          ],
+          [
+            100,
+            2800
+          ]
+        ],
         "Enable": true,
         "ForceApply": false,
         "Identifier": "NVApiWrapper/0-TU116-A/control/0",
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MatchingFanSensor": null,
         "MinimumPercent": 0,
         "Name": "Control 1 - NVIDIA GeForce GTX 1660",
         "NickName": "GPU",
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-TU116-A/fan/0",
+          "IsHidden": false,
+          "Name": "Fan 1 - NVIDIA GeForce GTX 1660",
+          "NickName": "GPU"
+        },
         "SelectedCommandStepDown": 8.0,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
           "IsHidden": false,
+          "MaximumCommand": 100,
           "MaximumTemperature": 120,
           "MinimumTemperature": 20,
           "Name": "GPU",
@@ -145,10 +283,9 @@
           "Points": [
             "20,0",
             "30,0",
-            "40,10.0284444444444",
-            "49.9,20",
-            "60,50",
-            "70,90",
+            "40,0",
+            "50,30",
+            "60,70",
             "75,100"
           ],
           "SelectedHysteresis": 2.0,
@@ -161,8 +298,8 @@
           }
         },
         "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
+        "SelectedStart": 30,
+        "SelectedStop": 30
       }
     ],
     "CustomSensors": [
@@ -173,23 +310,26 @@
         "SelectedMixFunction": 1,
         "SelectedSensors": [
           {
-            "Identifier": "NVApiWrapper/0-TU116-A/sensor/0",
-            "IsHidden": false,
-            "Name": "GPU",
-            "NickName": "GPU"
-          },
-          {
             "Identifier": "/amdcpu/0/temperature/2",
             "IsHidden": false,
             "Name": "Core (Tctl/Tdie)",
             "NickName": "Core (Tctl/Tdie)"
+          },
+          {
+            "Identifier": "NVApiWrapper/0-TU116-A/sensor/0",
+            "IsHidden": false,
+            "Name": "GPU",
+            "NickName": "GPU"
           }
         ]
       }
     ],
     "FanCurves": [
       {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
         "IsHidden": false,
+        "MaximumCommand": 100,
         "MaximumTemperature": 120,
         "MinimumTemperature": 20,
         "Name": "CPU",
@@ -214,7 +354,10 @@
         }
       },
       {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
         "IsHidden": false,
+        "MaximumCommand": 100,
         "MaximumTemperature": 120,
         "MinimumTemperature": 20,
         "Name": "GPU",
@@ -222,10 +365,9 @@
         "Points": [
           "20,0",
           "30,0",
-          "40,10.0284444444444",
-          "49.9,20",
-          "60,50",
-          "70,90",
+          "40,0",
+          "50,30",
+          "60,70",
           "75,100"
         ],
         "SelectedHysteresis": 2.0,
@@ -238,7 +380,10 @@
         }
       },
       {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
         "IsHidden": false,
+        "MaximumCommand": 100,
         "MaximumTemperature": 120,
         "MinimumTemperature": 20,
         "Name": "Chasis",
@@ -262,16 +407,16 @@
           "SelectedMixFunction": 1,
           "SelectedSensors": [
             {
-              "Identifier": "NVApiWrapper/0-TU116-A/sensor/0",
-              "IsHidden": false,
-              "Name": "GPU",
-              "NickName": "GPU"
-            },
-            {
               "Identifier": "/amdcpu/0/temperature/2",
               "IsHidden": false,
               "Name": "Core (Tctl/Tdie)",
               "NickName": "Core (Tctl/Tdie)"
+            },
+            {
+              "Identifier": "NVApiWrapper/0-TU116-A/sensor/0",
+              "IsHidden": false,
+              "Name": "GPU",
+              "NickName": "GPU"
             }
           ]
         }
@@ -286,25 +431,32 @@
       },
       {
         "Identifier": "/lpc/it8655e/fan/1",
-        "IsHidden": false,
+        "IsHidden": true,
         "Name": "Fan #2",
-        "NickName": "Chasis"
+        "NickName": "Fan #3"
       },
       {
         "Identifier": "NVApiWrapper/0-TU116-A/fan/0",
         "IsHidden": false,
         "Name": "Fan 1 - NVIDIA GeForce GTX 1660",
         "NickName": "GPU"
+      },
+      {
+        "Identifier": "/lpc/it8655e/fan/2",
+        "IsHidden": false,
+        "Name": "Fan #3",
+        "NickName": "Chassis"
       }
     ],
+    "HideCalibration": false,
     "HideFanSpeedCards": false,
     "HorizontalUIOrientation": false,
     "PrimaryColor": "#FF607D8B",
     "SecondaryColor": "#FFAEEA00",
-    "SelectedTheme": "Light",
+    "SelectedTheme": "Inherit",
     "ShowHiddenCards": false,
-    "StartMinimized": true,
     "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
     "TemperatureSensors": [],
     "TrayIconColor": "#FF000000",
     "TrayIcons": []
@@ -328,6 +480,6 @@
       "Enabled": true,
       "ZeroRPMOverride": false
     },
-    "SensorCount": 9
+    "SensorCount": 16
   }
 }
