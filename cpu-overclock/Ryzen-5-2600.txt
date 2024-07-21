@@ -1,0 +1,5 @@
+PBO = Off
+Core Performance Boot = Off
+Global C-State Control = Off
+Core Multiplier = x40.00
+VDDCR Offset = +0.14375 V (Total = 1.275 V)

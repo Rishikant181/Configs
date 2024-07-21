@@ -1,52 +1,48 @@
 {
-  "__VERSION__": "187",
+  "__VERSION__": "188",
   "Main": {
     "Controls": [
       {
         "Calibration": [
           [
-            0,
-            999
-          ],
-          [
             10,
-            1158
+            720
           ],
           [
             20,
-            1313
+            721
           ],
           [
             30,
-            1470
+            880
           ],
           [
             40,
-            1635
+            1038
           ],
           [
             50,
-            1798
+            1178
           ],
           [
             60,
-            1964
+            1311
           ],
           [
             70,
-            2119
+            1432
           ],
           [
             80,
-            2286
+            1543
           ],
           [
             90,
-            2430
+            1644
           ],
           [
             100,
-            2586
+            1762
           ]
         ],
         "Enable": true,
@@ -76,14 +72,12 @@
           "Name": "CPU",
           "OneWayHysteresis": false,
           "Points": [
-            "20,0",
-            "30,0",
             "40,0",
             "40.1,0",
             "50,10",
             "60,30",
-            "70,60",
-            "80,100"
+            "65,50",
+            "70,100"
           ],
           "SelectedHysteresis": 2.0,
           "SelectedResponseTime": 1,
@@ -121,39 +115,39 @@
         "Calibration": [
           [
             20,
-            638
+            650
           ],
           [
             30,
-            784
+            792
           ],
           [
             40,
-            926
+            940
           ],
           [
             50,
-            1074
+            1081
           ],
           [
             60,
-            1211
+            1227
           ],
           [
             70,
-            1364
+            1368
           ],
           [
             80,
-            1494
+            1514
           ],
           [
             90,
-            1641
+            1661
           ],
           [
             100,
-            1810
+            1815
           ]
         ],
         "Enable": true,
@@ -189,8 +183,7 @@
             "40,15",
             "50,40",
             "55,60",
-            "60,100",
-            "70.1,100"
+            "60,100"
           ],
           "SelectedHysteresis": 2.0,
           "SelectedResponseTime": 1,
@@ -222,20 +215,24 @@
       {
         "Calibration": [
           [
-            30,
+            20,
             0
           ],
           [
+            30,
+            832
+          ],
+          [
             40,
-            1125
+            1123
           ],
           [
             50,
-            1405
+            1403
           ],
           [
             60,
-            1686
+            1678
           ],
           [
             70,
@@ -243,7 +240,7 @@
           ],
           [
             80,
-            2248
+            2238
           ],
           [
             90,
@@ -251,7 +248,7 @@
           ],
           [
             100,
-            2800
+            2811
           ]
         ],
         "Enable": true,
@@ -281,12 +278,10 @@
           "Name": "GPU",
           "OneWayHysteresis": false,
           "Points": [
-            "20,0",
-            "30,0",
-            "40,0",
             "50,30",
-            "60,70",
-            "75,100"
+            "60,40",
+            "65,60",
+            "70,100"
           ],
           "SelectedHysteresis": 2.0,
           "SelectedResponseTime": 1,
@@ -298,8 +293,8 @@
           }
         },
         "SelectedOffset": 0,
-        "SelectedStart": 30,
-        "SelectedStop": 30
+        "SelectedStart": 39,
+        "SelectedStop": 26
       }
     ],
     "CustomSensors": [
@@ -335,14 +330,12 @@
         "Name": "CPU",
         "OneWayHysteresis": false,
         "Points": [
-          "20,0",
-          "30,0",
           "40,0",
           "40.1,0",
           "50,10",
           "60,30",
-          "70,60",
-          "80,100"
+          "65,50",
+          "70,100"
         ],
         "SelectedHysteresis": 2.0,
         "SelectedResponseTime": 1,
@@ -363,12 +356,10 @@
         "Name": "GPU",
         "OneWayHysteresis": false,
         "Points": [
-          "20,0",
-          "30,0",
-          "40,0",
           "50,30",
-          "60,70",
-          "75,100"
+          "60,40",
+          "65,60",
+          "70,100"
         ],
         "SelectedHysteresis": 2.0,
         "SelectedResponseTime": 1,
@@ -395,8 +386,7 @@
           "40,15",
           "50,40",
           "55,60",
-          "60,100",
-          "70.1,100"
+          "60,100"
         ],
         "SelectedHysteresis": 2.0,
         "SelectedResponseTime": 1,
@@ -436,16 +426,16 @@
         "NickName": "Fan #3"
       },
       {
-        "Identifier": "NVApiWrapper/0-TU116-A/fan/0",
-        "IsHidden": false,
-        "Name": "Fan 1 - NVIDIA GeForce GTX 1660",
-        "NickName": "GPU"
-      },
-      {
         "Identifier": "/lpc/it8655e/fan/2",
         "IsHidden": false,
         "Name": "Fan #3",
         "NickName": "Chassis"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-TU116-A/fan/0",
+        "IsHidden": false,
+        "Name": "Fan 1 - NVIDIA GeForce GTX 1660",
+        "NickName": "GPU"
       }
     ],
     "HideCalibration": false,
