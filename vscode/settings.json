@@ -1,7 +1,7 @@
 {
   // VSCODE
 
-  /* EDITOR */
+  /* Editor */
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
   "[typescript]": {
@@ -11,35 +11,45 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  /* EXTENSIONS */
+  /* Extension */
   "extensions.ignoreRecommendations": true,
 
-  /* SECURITY */
-  "security.allowedUNCHosts": ["wsl$"],
-
-  /* TELEMETRY */
+  /* Telemetry */
   "telemetry.telemetryLevel": "off",
 
-  /* UPDATE */
+  /* Update */
   "update.mode": "none",
-  "update.enableWindowsBackgroundUpdates": false,
 
-  /* WINDOW */
+  /* Window */
+  "window.autoDetectColorScheme": true,
+  "window.commandCenter": true,
   "window.restoreWindows": "none",
-
-  /* WORKBENCH */
+  "window.titleBarStyle": "custom",
+  
+  /* Workbench */
   "workbench.colorTheme": "GitHub Light",
   "workbench.iconTheme": "vscode-icons",
-  
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "workbench.preferredLightColorTheme": "GitHub Light",
 
   // LANGUAGES
+  
+  /* HTML */
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-  /* JAVA */
+  /* Java */
   "java.inlayHints.parameterNames.enabled": "none",
 
-  /* JAVASCRIPT */
+  /* JavaScript */
   "javascript.updateImportsOnFileMove.enabled": "always",
+  
+  /* JSON */
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-  /* TYPESCRIPT */
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  /* TypeScript */
+  "typescript.updateImportsOnFileMove.enabled": "always",
 }
