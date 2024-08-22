@@ -4,12 +4,7 @@
   /* Editor */
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "editor.renderLineHighlight": "none",
 
   /* Extension */
   "extensions.ignoreRecommendations": true,
@@ -25,15 +20,24 @@
   "window.commandCenter": true,
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
-  
+
   /* Workbench */
   "workbench.colorTheme": "GitHub Light",
+  "workbench.colorCustomizations": {
+    "breadcrumb.background": "#FFFFFF",
+    "editorGroupHeader.tabsBackground": "#FAFAFA",
+    "tab.activeBackground": "#FFFFFF",
+    "tab.hoverBackground": "#FDFDFD",
+    "tab.inactiveBackground": "#FAFAFA"
+  },
   "workbench.iconTheme": "vscode-icons",
-  "workbench.preferredDarkColorTheme": "GitHub Dark",
-  "workbench.preferredLightColorTheme": "GitHub Light",
+  "workbench.preferredDarkColorTheme": "Adwaita Dark",
+  "workbench.preferredLightColorTheme": "Adwaita Light",
+  "workbench.productIconTheme": "adwaita",
+  "workbench.tree.indent": 12,
 
   // LANGUAGES
-  
+
   /* HTML */
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -44,12 +48,18 @@
 
   /* JavaScript */
   "javascript.updateImportsOnFileMove.enabled": "always",
-  
+
   /* JSON */
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   /* TypeScript */
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
