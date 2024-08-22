@@ -24,11 +24,20 @@
   /* Workbench */
   "workbench.colorTheme": "GitHub Light",
   "workbench.colorCustomizations": {
-    "breadcrumb.background": "#FFFFFF",
-    "editorGroupHeader.tabsBackground": "#FAFAFA",
-    "tab.activeBackground": "#FFFFFF",
-    "tab.hoverBackground": "#FDFDFD",
-    "tab.inactiveBackground": "#FAFAFA"
+    "[*Light*][Adwaita Light]": {
+      "breadcrumb.background": "#FFFFFF",
+      "editorGroupHeader.tabsBackground": "#FAFAFA",
+      "tab.activeBackground": "#FFFFFF",
+      "tab.hoverBackground": "#FDFDFD",
+      "tab.inactiveBackground": "#FAFAFA"
+    },
+    "[*Dark*][Adwaita Dark]": {
+      "breadcrumb.background": "#1D1D1D",
+      "editorGroupHeader.tabsBackground": "#242424",
+      "tab.activeBackground": "#1D1D1D",
+      "tab.hoverBackground": "#202020",
+      "tab.inactiveBackground": "#242424"
+    }
   },
   "workbench.iconTheme": "vscode-icons",
   "workbench.preferredDarkColorTheme": "Adwaita Dark",
