@@ -24,14 +24,14 @@
   /* Workbench */
   "workbench.colorTheme": "GitHub Light",
   "workbench.colorCustomizations": {
-    "[*Light*][Adwaita Light]": {
+    "[*Light*][Adwaita Light & colorful status bar]": {
       "breadcrumb.background": "#FFFFFF",
       "editorGroupHeader.tabsBackground": "#FAFAFA",
       "tab.activeBackground": "#FFFFFF",
       "tab.hoverBackground": "#FDFDFD",
       "tab.inactiveBackground": "#FAFAFA"
     },
-    "[*Dark*][Adwaita Dark]": {
+    "[*Dark*][Adwaita Dark & colorful status bar]": {
       "breadcrumb.background": "#1D1D1D",
       "editorGroupHeader.tabsBackground": "#242424",
       "tab.activeBackground": "#1D1D1D",
@@ -40,8 +40,8 @@
     }
   },
   "workbench.iconTheme": "vscode-icons",
-  "workbench.preferredDarkColorTheme": "Adwaita Dark",
-  "workbench.preferredLightColorTheme": "Adwaita Light",
+  "workbench.preferredDarkColorTheme": "Adwaita Dark & colorful status bar",
+  "workbench.preferredLightColorTheme": "Adwaita Light & colorful status bar",
   "workbench.productIconTheme": "adwaita",
   "workbench.tree.indent": 12,
 
